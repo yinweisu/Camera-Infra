@@ -88,7 +88,7 @@ def Display():
     cv2.destroyAllWindows()
             
 if __name__=='__main__':
-    url = "rtsp://admin:12345@192.168.0.24:8554"
+    url = "rtsp://your address"
     p1 = ReceiveTask(url)
     p1.daemon = True
     p1.start()
